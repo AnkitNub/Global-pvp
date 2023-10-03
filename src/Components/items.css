@@ -1,0 +1,35 @@
+.item img {
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.data {
+  width: 460px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item button {
+  border: 0;
+  border-radius: 18px;
+  background-color: #d5e0d7;
+}
+
+.item:hover img {
+  width: 100%;
+  transition-duration: 0.8s;
+}
+
+.data h1 {
+  margin: 0;
+}
+.imp {
+  margin: 8px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}

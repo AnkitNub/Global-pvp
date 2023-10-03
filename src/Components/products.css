@@ -1,0 +1,12 @@
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  /* width: 100%; */
+  grid-gap: 40px;
+}
+
+.prod h1 {
+  background-color: black;
+  color: white;
+}
